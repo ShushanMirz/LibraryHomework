@@ -3,9 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Library library = new Library();
         library.setBook(new ArrayList<String>());
-//        Book book = new Book("Pride and Prejudice","Jane Austen" );
-//        book.getAuthor();
-//        book.getTitle();
+
 
         library.getBook().add("Pride and Prejudice");
         library.getBook().add("Jennie Gerhardt");

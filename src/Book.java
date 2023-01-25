@@ -10,17 +10,11 @@ public class Book {
         return title;
     }
 
-    public Book(String title, String author) {
-        this.title = title;
-        this.author = author;
+    public void setAuthor(String author) {
+       this.author = author;
     }
-
-//    public void setAuthor(String author) {
-//        this.author = author;
-//    }
-//
-//    public void setTitle(String title) {
-//        this.title = title;
-//    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
 }

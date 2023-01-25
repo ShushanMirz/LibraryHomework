@@ -14,8 +14,6 @@ public class Library {
         this.book=book;
     }
 
-
-
     public void takeBook(String bookName, Student student) {
         if (book.contains(bookName)) {
             book.remove(bookName);
@@ -28,7 +26,6 @@ public class Library {
         }
     }
 
-
     public void returnBook (String bookName, Student student) {
         if (student.getBook().contains(bookName)) {
             book.add(bookName);
@@ -36,7 +33,7 @@ public class Library {
 
         }
         else {
-            System.out.println("Book is not in the student's booklist ");
+            System.out.println("Book is not in the student's book-list ");
         }
 
     }
